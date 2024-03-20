@@ -1,0 +1,13 @@
+[Unit]
+Description=bot service
+After=multi-user.target
+
+[Service]
+Type=idle
+WorkingDirectory=/root/bot/
+ExecStart=node index.js
+Restart=always
+RestartSec=3s
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,22 @@
+[
+	{
+		"tag": "a",
+		"host": "185.24.252.113",
+		"port": 443,
+		"ufw": "100:150",
+		"username": "root",
+		"password": "#@BullsheetGod@#",
+		"traffic": 21474836480,
+		"expire": 2505600
+	},
+	{
+		"tag": "b",
+		"host": "193.151.147.13",
+		"port": 443,
+		"ufw": "100:150",
+		"username": "root",
+		"password": "#@BullsheetGod@#",
+		"traffic": 21474836480,
+		"expire": 2505600
+	}
+]
